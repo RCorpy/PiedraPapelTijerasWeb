@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Juego de Piedra-Papel-Tijera</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <header>
+        <h1>Piedra Papel Tijeras</h1>
+    </header>
+
+    <div class="puntuacion">
+        <div id = "jugador-label" class="etiqueta">jugador</div>
+        <div id= "ordenador-label" class="etiqueta">ordenador</div>
+        <span id = "puntuacion-jugador">0</span> :
+        <span id = "puntuacion-ordenador">0</span>
+    </div>
+    <div class = "resultado">
+        <p>
+            El Papel le gana a la Piedra
+        </p>
+    </div>
+
+    <div class="elecciones">
+        <div class="eleccion" id = "r">
+            <img src="imagenes/piedra.png">
+        </div>
+        <div class="eleccion" id = "p">
+            <img src="imagenes/papel.png">
+        </div>
+        <div class="eleccion" id = "t">
+            <img src="imagenes/tijeras.png">
+        </div>
+    </div>
+    <p id="mensaje">A la de 3... 1, 2 y 3!</p>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
